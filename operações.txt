@@ -1,0 +1,15 @@
+Opreações Básicas:
+
+'r'	Abre o arquivo para leitura (default).
+'w'	Abre o arquivo para escrita, truncando o arquivo primeiro.
+'x'	Cria um arquivo para escrita e falha, caso ele exista.
+'a'	Abre o arquivo para escrita, acrescentando conteúdo ao final do arquivo, caso ele exista.
+'b'	Modo binário.
+'t'	Modo texto (default).
+'+'	Abre o arquivo para atualização (leitura ou escrita).
+
+Atributos do objeto tipo arquivo:
+
+name  |	Nome do arquivo aberto	          |  arquivo.name   |	Saber qual arquivo está sendo usado
+mode  |	Modo em que o arquivo foi aberto  |	arquivo.mode    |	Ver se está em leitura (r), escrita (w), append (a) etc
+closed|	Indica se o arquivo está fechado  |	arquivo.closed  |	Evitar tentar usar arquivo já fechado
