@@ -24,3 +24,12 @@ Manipulação de strings:
 | `count()` | Conta quantas vezes algo aparece      | `"banana".count("a")` | `3`             |
 | `split()` | Quebra string em lista                | `"a b c".split()`     | `['a','b','c']` |
 | `join()`  | Junta lista em uma string             | `" ".join(lista)`     | `"a b c"`       |
+-------------------------------------------------------------------------------------------------------------
+
+Tratamento de exceções:
+| Exceção             | Quando acontece            |
+| ------------------- | -------------------------- |
+| `FileNotFoundError` | arquivo não existe         |
+| `PermissionError`   | sem permissão para acessar |
+| `FileExistsError`   | arquivo já existe          |
+| `OSError`           | erro geral de sistema      |
