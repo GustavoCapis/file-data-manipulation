@@ -43,6 +43,11 @@ Opreações adicionais com arquivos:
 | Remover diretório  | `os.rmdir()`   | Apaga um diretório vazio        | `os.rmdir("pasta")`           |
 | Renomear arquivo   | `os.rename()`  | Muda o nome de um arquivo       | `os.rename("a.txt","b.txt")`  |
 | Substituir arquivo | `os.replace()` | Renomeia sobrescrevendo destino | `os.replace("a.txt","b.txt")` |
-| Listar arquivos    | `os.listdir()` | Mostra arquivos de uma pasta    | `os.listdir("pasta")`         |
-| Criar diretório    | `os.mkdir()`   | Cria uma nova pasta             | `os.mkdir("nova_pasta")`      |
 -------------------------------------------------------------------------------------------------------------
+
+Opreações com diretórios:
+| Operação          | Função         | O que faz                       |
+| ----------------- | -------------- | ------------------------------- |
+| Criar diretório   | `os.mkdir()`   | Cria uma pasta                  |
+| Remover diretório | `os.rmdir()`   | Remove uma pasta vazia          |
+| Listar conteúdo   | `os.scandir()` | Mostra arquivos e pastas dentro |
