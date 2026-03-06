@@ -7,9 +7,20 @@ Opreações Básicas:
 'b'	Modo binário.
 't'	Modo texto (default).
 '+'	Abre o arquivo para atualização (leitura ou escrita).
+------------------------------------------------------------------------------------------------------------
 
 Atributos do objeto tipo arquivo:
 
 name  |	Nome do arquivo aberto	          |  arquivo.name   |	Saber qual arquivo está sendo usado
 mode  |	Modo em que o arquivo foi aberto  |	arquivo.mode    |	Ver se está em leitura (r), escrita (w), append (a) etc
 closed|	Indica se o arquivo está fechado  |	arquivo.closed  |	Evitar tentar usar arquivo já fechado
+------------------------------------------------------------------------------------------------------------
+
+Manipulação de strings:
+
+| Método    | O que faz                             | Exemplo               | Resultado       |
+| --------- | ------------------------------------- | --------------------- | --------------- |
+| `strip()` | Remove espaços e `\n` do início e fim | `"  oi \n".strip()`   | `"oi"`          |
+| `count()` | Conta quantas vezes algo aparece      | `"banana".count("a")` | `3`             |
+| `split()` | Quebra string em lista                | `"a b c".split()`     | `['a','b','c']` |
+| `join()`  | Junta lista em uma string             | `" ".join(lista)`     | `"a b c"`       |
